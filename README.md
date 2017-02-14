@@ -1,4 +1,4 @@
-mongocopy [![Build Status](https://travis-ci.org/debitoor/mongocopy.png?branch=master)](https://travis-ci.org/debitoor/mongocopy)
+mongocopy  [![npm version](https://badge.fury.io/js/%40debitoor%2Fmongocopy.svg)](https://badge.fury.io/js/%40debitoor%2Fmongocopy) [![Build Status](https://travis-ci.org/debitoor/mongocopy.png?branch=master)](https://travis-ci.org/debitoor/mongocopy) 
 =========
 
 [![NPM](https://nodei.co/npm/mongocopy.png?global=true)](https://nodei.co/npm/mongocopy/)
