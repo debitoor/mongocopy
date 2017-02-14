@@ -37,10 +37,6 @@ function run(opts, cb) {
 	function runOne(colName, cb) {
 		const colFrom = dbFrom.collection(colName);
 		const colTo = dbTo.collection(colName);
-		// not needed?
-		// if (!colFrom || !colTo) {
-		// 	return cb(new Error('There is no column "' + colName + '" in database'));
-		// }
 		const query = opts.data[colName].query || {};
 		const {transform} = opts.data[colName];
 
