@@ -1,8 +1,6 @@
 mongocopy  [![npm version](https://badge.fury.io/js/%40debitoor%2Fmongocopy.svg)](https://badge.fury.io/js/%40debitoor%2Fmongocopy) [![Build Status](https://travis-ci.org/debitoor/mongocopy.png?branch=master)](https://travis-ci.org/debitoor/mongocopy) [![dependencies Status](https://david-dm.org/debitoor/mongocopy/status.svg)](https://david-dm.org/debitoor/mongocopy)
 =========
 
-[![NPM](https://nodei.co/npm/mongocopy.png?global=true)](https://nodei.co/npm/mongocopy/)
-
 Sometimes we need to copy a special set of user data from one environment to another.
 The module fits nicely when you want to
 * select a set of collections
