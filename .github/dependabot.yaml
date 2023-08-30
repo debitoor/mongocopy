@@ -1,0 +1,21 @@
+version: 2
+
+registries:
+  debitoor-npm-registry:
+    type: npm-registry
+    url: https://registry.npmjs.org
+    token: ${{ secrets.DEBITOOR_NPM_TOKEN }}
+  sumup-npm-registry:
+    type: npm-registry
+    url: https://npm.pkg.github.com
+    token: ${{ secrets.READ_PACKAGES_PAT }}
+
+updates:
+  - package-ecosystem: npm
+    directory: / # Location of package manifests
+    registries:
+      - debitoor-npm-registry
+      - sumup-npm-registry
+    schedule:
+      interval: weekly
+    rebase-strategy: auto
