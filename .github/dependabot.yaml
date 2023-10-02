@@ -11,7 +11,6 @@ registries:
     token: ${{ secrets.READ_PACKAGES_PAT }}
 
 updates:
-  # prod dependencies
   - package-ecosystem: npm
     directory: / # Location of package manifests
     registries:
@@ -23,19 +22,3 @@ updates:
     open-pull-requests-limit: 5
     labels:
       - dependencies
-    allow:
-      - dependency-type: production
-    # dev dependencies
-    - package-ecosystem: npm
-    directory: / # Location of package manifests
-    registries:
-      - debitoor-npm-registry
-      - sumup-npm-registry
-    schedule:
-      interval: monthly
-    rebase-strategy: auto
-    open-pull-requests-limit: 10
-    labels:
-      - dependencies
-    allow:
-      - dependency-type: development
