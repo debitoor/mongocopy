@@ -20,6 +20,9 @@ updates:
       - sumup-npm-registry
     schedule:
       interval: weekly
+    commit-message:
+      prefix: "npm prod"
+      prefix-development: "npm dev"
     rebase-strategy: auto
     open-pull-requests-limit: 5
     # TODO make configurable
