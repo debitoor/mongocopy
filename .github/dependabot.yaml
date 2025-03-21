@@ -38,3 +38,10 @@ updates:
           - "patch"
     labels:
       - dependencies
+  - package-ecosystem: 'github-actions'
+    # disable automatic PRs per service.
+    # workflow updates is made from github-workflow-sync
+    open-pull-requests-limit: 0
+    directory: '/'
+    schedule:
+      interval: 'monthly'
