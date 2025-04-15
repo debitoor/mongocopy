@@ -24,7 +24,7 @@
   "devDependencies": {
     "@debitoor/eslint-config-debitoor": "1.2.0",
     "chai": "3.5.0",
-    "mocha": "3.2.0",
+    "mocha": "10.2.0",
     "mocha-eslint": "3.0.1"
   },
   "files": [
