@@ -19,7 +19,7 @@ updates:
       - debitoor-npm-registry
       - sumup-npm-registry
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     commit-message:
       prefix: "npm prod"
       prefix-development: "npm dev"
