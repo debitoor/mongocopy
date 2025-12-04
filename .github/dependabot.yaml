@@ -27,18 +27,14 @@ updates:
       prefix-development: "npm dev"
     rebase-strategy: auto
     open-pull-requests-limit: 5
-    # TODO make configurable
     groups:
       prod-patch-updates:
         dependency-type: production
         update-types:
           - "minor"
           - "patch"
-      dev-dependencies:
-        dependency-type: development
-        update-types:
-          - "minor"
-          - "patch"
+    allow:
+      - dependency-type: "production"
     labels:
       - dependencies
   - package-ecosystem: 'github-actions'
