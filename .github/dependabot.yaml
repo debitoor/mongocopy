@@ -16,6 +16,9 @@ updates:
   - package-ecosystem: npm
     cooldown:
       default-days: 7
+      exclude:
+        - "@debitoor/*"
+        - "@sumup/*"
     directory: / # Location of package manifests
     registries:
       - debitoor-npm-registry
